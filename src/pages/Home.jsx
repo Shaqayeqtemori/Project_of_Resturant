@@ -20,7 +20,7 @@ function Home() {
             <div className="absolute inset-0 bg-[rgba(24,29,56,0.7)] flex items-center">
               <div className="max-w-6xl mx-auto px-4">
                 <div className="max-w-3xl">
-                  <h5 className="text-blue-500 uppercase mb-3 animate-slideInDown">
+                  <h5 className="text-orange-500 uppercase mb-3 animate-slideInDown">
                     Best Resturant of Herat
                   </h5>
                   <h1 className="text-5xl font-bold text-white animate-slideInDown">
@@ -32,13 +32,13 @@ function Home() {
                   </p>
                   <a
                     href="#"
-                    className="bg-blue-500 text-white py-3 px-8 mr-3 rounded hover:bg-blue-600 transition animate-slideInLeft"
+                    className="bg-orange-500 text-white py-3 px-8 mr-3 rounded hover:bg-white hover:text-orange-400 transition animate-slideInLeft"
                   >
                     Read More
                   </a>
                   <a
                     href="#"
-                    className="bg-white text-gray-800 py-3 px-8 rounded hover:bg-gray-100 transition animate-slideInRight"
+                    className="bg-white text-gray-800 py-3 px-8 rounded hover:bg-orange-500 hover:text-white transition animate-slideInRight"
                   >
                     Join Now
                   </a>
