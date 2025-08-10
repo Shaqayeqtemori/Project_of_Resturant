@@ -8,17 +8,12 @@ function Header() {
                     <i className="fas fa-utensils"></i>
                     Online Resturant
                 </Link>
-                {/* Desktop Navigation */}
                 <nav className="hidden md:flex space-x-6 items-center">
                     <Link to="/" className="text-white hover:text-orange-400 font-medium">Home</Link>
                     <Link to="/about" className="text-white hover:text-orange-400 font-medium">About</Link>
                     <Link to="/contact" className="text-white hover:text-orange-400 font-medium">Contact</Link>
                     <Link to="#" className="ml-4 px-5 py-2 bg-orange-600 text-white rounded hover:bg-white hover:text-orange-700 transition">Join Now <i className="fas fa-arrow-right ml-2"></i></Link>
                 </nav>
-                {/* Mobile Menu Placeholder (optional future) */}
-                <div className="md:hidden">
-                    {/* You can add mobile menu toggle here */}
-                </div>
             </div>
         </header>
     );

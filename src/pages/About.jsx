@@ -4,6 +4,9 @@ import img2 from "../assets/bd333727-c83a-4813-bd0e-d13647f4ffee.jpg";
 import img3 from "../assets/bd02499e-7736-4f8a-8e98-0f0143a37c94.jpg";
 import img4 from "../assets/bf9d663d-7f77-45c4-9a57-b89cb9f9e8ff.jpg";
 import img5 from "../assets/b308df24-0304-4f34-92c6-e4cf69ded346.jpg";
+import img6 from "../assets/team-1.jpg";
+import img7 from "../assets/team-4.jpg";
+import img8 from "../assets/team-3.jpg";
 
 function About(){
     return(
