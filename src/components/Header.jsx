@@ -6,7 +6,7 @@ function Header() {
                 {/* Logo */}
                 <Link to="/" className="text-2xl font-bold text-gray-800 flex items-center gap-2">
                     <i className="fas fa-synagogue"></i>
-                    TOEFL Academy
+                    Online Resturant
                 </Link>
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex space-x-6 items-center">
