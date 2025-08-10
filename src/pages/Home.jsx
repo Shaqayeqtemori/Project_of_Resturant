@@ -7,6 +7,12 @@ import img5 from "../assets/b308df24-0304-4f34-92c6-e4cf69ded346.jpg";
 import img6 from "../assets/team-1.jpg";
 import img7 from "../assets/team-4.jpg";
 import img8 from "../assets/team-3.jpg";
+import img9 from "../assets/b83e351a-4014-41a3-97b3-283047c877dc.jpg";
+import img10 from "../assets/b308df24-0304-4f34-92c6-e4cf69ded346.jpg";
+import img11 from "../assets/b0cdd552-274d-4e53-851b-6677372bda8b.jpg";
+import img12 from "../assets/event-2.jpg";
+import img13 from "../assets/event-3.jpg";
+import img14 from "../assets/b9734216-423d-4704-b3ef-e910463fcd5a.jpg";
 
 function Home() {
   return (
@@ -98,55 +104,112 @@ function Home() {
               </div>
             </div>
           </div>
-          {/* Slide 3 */}
-          <div className="flex">
+          {/* Slide 4 */}
+          <div className="flex" style={{marginTop:'270px'}}>
             <div className="relative w-1/3">
               <div className="absolute inset-0  flex items-center">
                 <div className="max-w-6xl mx-auto px-4">
-                  <div className="max-w-3xl">
-                    <i className="fa fa-"></i>
-
-                   
+                  <div className="max-w-3xl bg-gray-900 hover:bg-gray-700 w-[300px] text-white hover:text-orange-800 p-4">
+                    <i className="fa fa-user-tie text-9xl ml-[50px]"></i>
+                    <p  className="ml-[80px]">Happy Clients</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="relative w-1/2">
+            <div className="relative w-1/4">
               <div className="absolute inset-0 flex items-center">
                 <div className="max-w-6xl mx-auto px-4">
-                  <div className="max-w-3xl">
-                  
+                  <div className="max-w-3xl bg-gray-900 hover:bg-gray-700 w-[300px] text-white hover:text-orange-800 p-4">
+                    <i className="fa fa-boxes text-9xl ml-[50px]"></i>
+                    <p  className="ml-[110px]">Boxes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative w-1/4">
+              <div className="absolute inset-0 flex items-center">
+                <div className="max-w-6xl mx-auto px-4">
+                  <div className="max-w-3xl bg-gray-900 hover:bg-gray-700 w-[300px] text-white hover:text-orange-800 p-4">
+                    <i className="fa fa-utensils text-9xl ml-[50px]"></i>
+                    <p  className="ml-[110px]">Reserve</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative w-1/4">
+              <div className="absolute inset-0 flex items-center">
+                <div className="max-w-6xl mx-auto px-4">
+                  <div className="max-w-3xl bg-gray-900 hover:bg-gray-700 w-[300px] text-white hover:text-orange-800 p-4">
+                    <i className="fa fa-theater-masks text-9xl ml-[50px]"></i>
+                    <p  className="ml-[90px]">Our Programs</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          {/* Slide 3 */}
-          <div className="relative" style={{marginTop:'180px'}}>
-            <div className="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
-                <div className="md:w-1/2 ml-0 md:ml-10">
-                    <img  className="w-[500px] h-[400px]  max-w-xs md:max-w-mdobject-center rounded-[50px]"
-                        src={img5} />
-                </div>
-                <div className="flex flex-col mb-32 space-y-12 ml-0 md:ml-[310px] md:w-1/2">
-                    <h1 className="max-w-md text-orange-800 text-4xl font-bold text-center md:text-5xl md:text-left">
-                        Sandwich of Meat
-                    </h1>
-                    <p className="max-w-sm text-orange-900  text-center  md:text-left">
-                        Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
-                    </p>
-                    <div className="flex justify-center md:justify-start">
-                        <a href="#" className="p-3 hover:bg-orange-500 px-6 pt-2 text-white bg-orange-600 rounded-full baseline">
-                        Get Started
-                        </a>
-                        <a href="#" className="p-3 px-6 pt-2 text-white hover:bg-orange-900 rounded-full bg-gray-900 baseline">
-                        View ingredients 
-                        </a>
-                    </div>
-                </div>
+          {/* Slide 5 */}
+          <h1 className="text-center md:mr-4 text-5xl text-orange-900 mb-9" style={{marginTop:'150px'}}>Our Services</h1>
+          <h1 className="text-center md:mr-4 text-3xl text-orange-500">Our Deserts</h1>
+          <div className="flex flex-col mt-0 md:flex-row md:space-x-0 items-center justify-center">
+          {/* sweets 1 */}
+          <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+            <img className="w-[350px] h-[200px] object-center rounded-full" src={img2} />
+            <p className="text-sm">Milk strawberry shake</p>
+          </div>
+
+          {/* sweets 2 */}
+          <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+            <img className="w-[350px] h-[200px] object-center rounded-full" src={img3} />
+            <p className="text-sm">Italian vanilla dessert</p>
+          </div>
+
+          {/* sweets 3 */}
+          <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+            <img className="w-[350px] h-[200px] object-center rounded-full" src={img4} />
+            <p className="text-sm">Vanilla milk cake</p>
+          </div>
+          </div>
+          <h1 className="text-center md:mr-4 text-3xl text-orange-500">Our Main Food</h1>
+          <div className="flex flex-col mt-0 md:flex-row md:space-x-0 items-center justify-center">
+            {/* sweets 1 */}
+            <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+              <img className="w-[350px] h-[200px] object-center rounded-full" src={img9} />
+              <p className="text-sm">Italian Pizza</p>
+            </div>
+
+            {/* sweets 2 */}
+            <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+              <img className="w-[350px] h-[200px] object-center rounded-full" src={img10} />
+              <p className="text-sm">Meat Sandwich</p>
+            </div>
+
+            {/* sweets 3 */}
+            <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+              <img className="w-[350px] h-[200px] object-center rounded-full" src={img11} />
+              <p className="text-sm">Soupe</p>
             </div>
           </div>
-         {/* Slide 4 */}
+          <h1 className="text-center md:mr-4 text-3xl text-orange-500">Our Services for your party</h1>
+          <div className="flex flex-col mt-0 md:flex-row md:space-x-0 items-center justify-center">
+            {/* sweets 1 */}
+            <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+              <img className="w-[350px] h-[200px] object-center rounded-full" src={img12} />
+              <p className="text-sm">For Wedding</p>
+            </div>
+
+            {/* sweets 2 */}
+            <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+              <img className="w-[350px] h-[200px] object-center rounded-full" src={img13} />
+              <p className="text-sm">For Birthday</p>
+            </div>
+
+            {/* sweets 3 */}
+            <div className="flex flex-col items-center hover:text-orange-900 hover:underline p-6 space-y-6 rounded-full">
+              <img className="w-[350px] h-[200px] object-center rounded-full" src={img14} />
+              <p className="text-sm">For Celebration</p>
+            </div>
+          </div>
+         {/* Slide 6 */}
           <div className="relative">
             <img
               className="w-full h-[500px] object-cover"
@@ -156,7 +219,7 @@ function Home() {
             <div className="absolute inset-0 bg-white flex items-center">
               <div className="max-w-6xl mx-auto px-4">
                 <div className="max-w-3xl ">
-                  <h1 className="text-5xl text-orange-900 font-bold animate-slideInDown">
+                  <h1 className="text-5xl text-center md:mr-4  text-orange-900 font-bold animate-slideInDown">
                     Our Team
                   </h1>
                   <div class="flex flex-col mt-0 md:flex-row md:space-x-0">
